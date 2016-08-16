@@ -13,7 +13,11 @@
 # Imports
 
 # Body
-
+def sumall(*args):
+	total = 0
+	for item in args:
+		total += item
+	return total
 
 ##############################################################################
 def main():   # DO NOT CHANGE BELOW
